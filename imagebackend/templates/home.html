@@ -1,0 +1,78 @@
+{% extends "base.html" %}
+{% block content %}
+{% load static %}
+<div class="sidebar" id="mysidebar">
+    <div class="closebtn" id="myclosebtn" onclick="closebtn()">X</div>
+    <ul class="list-group">
+        {% for l in list %}
+        <a href="#">
+            <li class="list-group-item">{{l.title}} <i class="fa fa-angle-right"></i></li>
+        </a>
+
+        {% endfor %}
+    </ul>
+
+</div>
+
+<div class="photo"></div>
+<div class="photo-collection">
+    <h4 class="ms-5">Popular Categories <span><i class="fa fa-angle-double-right mx-2" aria-hidden="true"></i></span>
+    </h4>
+
+    <div class="containerr">
+        <!-- <div class="row imagediv"> -->
+        {% for i in img %}
+        <div class="image">
+            <img src={{i.image.url}} class="" alt="">
+        </div>
+        {% endfor %}
+        <!-- </div> -->
+    </div>
+</div>
+
+<div class=" popular">
+    <h3> Popular Searches</h3>
+
+    <div class="popular-list">
+        <p>family</p>
+        <p>Technology</p>
+        <p>Fitness</p>
+        <p>lifestyle</p>
+        <p>animals</p>
+        <p>computer</p>
+        <p>dashain</p>
+        <p>birds</p>
+        <p>foods</p>
+        <p>players</p>
+        <p>god</p>
+        <p>kitchen</p>
+        <p>doctors</p>
+        <p>teacher</p>
+        <p>student</p>
+        <p>fashion</p>
+        <p>mountains</p>
+        <p>kitchen</p>
+        <p>doctors</p>
+        <p>teacher</p>
+        <p>student</p>
+        <p>lifestyle</p>
+        <p>animals</p>
+        <p>computer</p>
+        <p>dashain</p>
+
+    </div>
+
+</div>
+<div class="container description">
+    <h3> Why ImagesBazaar?</h3>
+    <p>India's diversity and complexity can be witnessed through its people, traditions and values associated with
+        distinctive regional customs, habits, lifestyle and festivals. That's why our content reflects the innate
+        expressions of deep-rooted feelings of individuals through which spring their day-to-day actions. From
+        contemporary
+        concepts and ideas to the broadest range of categories depicting Indians in virtually all walks of life, age
+        groups
+        and expressions - you will find it all here! Know More</p>
+</div>
+
+
+{% endblock content %}

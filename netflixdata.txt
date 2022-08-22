@@ -1,0 +1,15 @@
+netflix clone...................
+mylink.................
+https://netflix-clone-959e7.web.app/
+APL_KEY:4c800a0d012b3d68253ad8f28e4ac840
+www.tmdb.com
+username:amrit10
+password:panta123
+
+
+https://api.themoviedb.org/3/configuration?api_key=<<api_key>>
+
+****************************************************
+live cricket api.............
+API_Key='tBzEQGLBL5gF5vnv61tZfQgfgzJ2'
+login with= amritpanta51@gmail.com

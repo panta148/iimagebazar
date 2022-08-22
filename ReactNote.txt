@@ -1,0 +1,10 @@
+BASIC REACT COMMAND
+................................................
+-npx create-react-app app-name
+-cd app-name
+-npm start
+-npm i @material-ui/core
+-npm i @material-ui/icons
+-npm i react-router
+-npm i bootstrap
+-npm i axios
